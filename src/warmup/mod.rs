@@ -1,2 +1,2 @@
-mod diff21;
-mod sleep_in;
+pub mod diff21;
+pub mod sleep_in;

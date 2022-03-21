@@ -10,7 +10,7 @@ diff21(10) → 11
 diff21(21) → 0
 */
 
-fn diff_21(target: i32) -> i32 {
+pub fn diff_21(target: i32) -> i32 {
     let _diff: i32 = 21 - target;
 
     if target > 21 {

@@ -9,7 +9,7 @@
    sleepIn(false, true) → true*
 */
 
-fn sleep_in(weekday: bool, vacation: bool) -> bool {
+pub fn sleep_in(weekday: bool, vacation: bool) -> bool {
     return vacation || (!weekday);
 }
 
