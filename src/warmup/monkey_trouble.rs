@@ -10,7 +10,7 @@ monkey_trouble(False, False) → True
 monkey_trouble(True, False) → False
 */
 
-fn monkey_trouble(a_smile: bool, b_smile: bool) -> bool {
+pub fn monkey_trouble(a_smile: bool, b_smile: bool) -> bool {
     (a_smile && b_smile) || (!a_smile && !b_smile)
 }
 
