@@ -28,7 +28,8 @@ mod tests {
 
     #[test]
     fn sum_nao_igauis() {
-        assert_eq!(5, sum_double(3, 2))
+        assert_eq!(5, sum_double(3, 2));
+        assert_eq!(9, sum_double(4, 5));
     }
 
     #[test]
