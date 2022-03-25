@@ -18,3 +18,6 @@ pub fn diff_21(target: i32) -> i32 {
     }
     _diff.abs()
 }
+
+#[cfg(test)]
+mod tests;
